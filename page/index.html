@@ -1,0 +1,588 @@
+.<!DOCTYPE html>
+<link rel="icon" href="https://developer.android.com/guide/practices/ui_guidelines/images/NB_Icon_Mask_Shapes_Ext_02.gif?hl=th">
+<span class="loading">
+  <div class="lds-facebook"><div></div><div></div><div></div></div>
+</span>
+<style>
+    .loading{
+      position: fixed;width: 100%;height: 100vh;display: flex;justify-content: center;align-items: center;background-color: white;z-index: 2002;
+    }
+
+    .lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background-color: #493fda;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+</style>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    
+    <link rel="stylesheet" href="vendor/bootstrap/css/something.css">
+    <link rel="stylesheet" href="vendor/slick/slick/slick.css">
+    <link rel="stylesheet" href="vendor/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/animate_it/animate.css">
+</head>
+<body>
+
+
+
+
+          <section class="container-fluid menu-style">
+            <div class="row">
+              <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark wow animate__slideInDown">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img src="../image/Group 1541.png" class="image">
+                      </a>
+                      <button class="navbar-toggler toggler1 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars menu-icon icon1"></i>
+                      </button>
+                      <button class="navbar-toggler toggler2 border-0 d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-window-close menu-icon icon2"></i>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white text"   href="#homePage" tabindex="-1" aria-disabled="true">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white text"   href="#blog" tabindex="-1" aria-disabled="true">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white  text" href="#about1" tabindex="-1" aria-disabled="true">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white text"   href="#package" tabindex="-1" aria-disabled="true">Service</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white  text" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                </nav>
+            </div>
+            </div>
+          </section>
+          
+          <section class="container-fluid home" id="homePage">
+            <div class="container p-md-0">
+              <div class="row min-vh-100 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6">
+                  <div class="wow animate__fadeInLeft delay1">
+                    <h4 class="fw-bolder mt-4 mx-1 m-md-0">
+                      SOCIAL MEDIA
+                    </h4>
+                    <h1 class="fw-bolder font-w text-primary mt-2 m-md-0">
+                      FOR BUSINESS!
+                    </h1>
+                    <p class="text-black-50">
+                      Lorem ipsum dolor, sit amet consectetur <br class="d-block d-md-none d-lg-block">
+                      adipisicing elit something. 
+                    </p>
+                    <button class="btn btn-primary rounded rounded-pill px-3 mb-3 m-md-0">GET A FREE ADUIT</button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 wow animate__fadeInRight delay2">
+                  <div class="p-2">
+                      <img src="../image/content-1.svg" class="w-100" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="scroll-v wow animate__backInLeft">
+            <a href="" class="text-primary me-4" style="text-decoration: none;">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-primary me-4" style="text-decoration: none;">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-primary  me-4" style="text-decoration: none;">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-primary me-4" style="text-decoration: none;">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </div>
+          <a href="#blog" class="scroll-to-next shadow shadow-lg wow animate__fadeIn animate__delay-2s"> 
+            <i class="fa fa-mouse text-primary wow animate__bounce animeteS"></i>
+          </a>
+          <section id="blog" class="container-fluid contant overflow-hidden">
+            <div class="row align-items-center min-vh-100">
+              <div class="col-12 col-md-6 wow animate__zoomInLeft animate__slow">
+                <div class="text-center">
+                  <img src="../image/content-2.svg" class="w-75 image-width" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-6 about-text">
+                <div class= "w-100 pe-md-5 p-xl-5 contant-width wow animate__zoomInRight animate__slow">
+                    <p class="text-black-50">Biography</p>
+                     <h4 class="fw-bolder my-3">WHO WE ARE ?</h4>
+                     <p class="text-black-50" style="text-align: justify;">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, necessitatibus architecto praesentium nulla temporibus vel tempore expedita iusto qui odio delectus eveniet velit ratione deserunt quisquam amet beatae incidunt earum!
+                      necessitatibus architecto praesentium nulla temporibus vel tempore expedita iusto qui odio delectus eveniet velit ratione deserunt quisquam amet beatae incidunt earum!          
+                     </p>
+                     <p class=" my-3 text-black-50">
+                      It is 2019 time to sink or swin.
+                     </p>
+                     <div class="text-center text-md-start">
+                     <button class="btn  btn-primary px-4 py-2 rounded rounded-pill">SEE MORE</button>
+                     </div>
+                </div>
+              </div>
+            </div>
+          </section> 
+          <section id="about1" class="container-fluid about-text2 overflow-hidden">
+            <div class="row">
+              <div class="col-12">
+                <div class="container">
+                  <div class="row min-vh-100 pt-5">
+                    <div class="col-12">
+                      <div class="my-5">
+                        <h6 class="text-black-50 fw-lighter">OUR SERVICES</h6>
+                        <H3 class="fw-bolder">What We Offer</H3>
+                      </div>
+                    </div>
+                      <div class="col-12 col-md-6 col-xl-4 wow animate__bounceInLeft delay">
+                          <div class="card shadow card-radius mb-5">
+                            <div class="card-body">
+                                  <div class="text-center my-1">
+                                                                    <img src="../image/icon-1.svg"  alt="">
+                                  </div>
+                                  <h5 class="py-4 text-info">SOCIAL MEDIA MENAGEMENT</h5>
+                                  <P class="text-black-50 service-card">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse accusamus vel amet nobis facere, numquam id perspiciatis dolor, neque aliquid eos eaque quam culpa natus aspernatur exercitationem quibusdam explicabo.
+                                  </P>
+                                  <div class="text-end">
+                                    <button class="btn  btn-info text-white px-4 py-2 rounded rounded-pill">SEE MORE</button>                             
+                                  </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 wow animate__bounceInDown delay2">
+                        <div class="card shadow card-radius mb-5">
+                          <div class="card-body">
+                                <div class="text-center my-1">
+                                                                <img src="../image/icon-2.svg" alt="">
+                                </div>
+                                <h5 class="py-4 text-success">SOCIAL GROWTH CAMPAIGN</h5>
+                                <P class="text-black-50 service-card">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse accusamus vel amet nobis facere, numquam id perspiciatis dolor, neque aliquid eos eaque quam culpa natus aspernatur exercitationem quibusdam explicabo.
+                                </P>
+                                <div class="text-end">
+                                  <button class="btn  btn-success text-white px-4 py-2 rounded rounded-pill">SEE MORE</button>                             
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 wow animate__bounceInRight animate__delay-1s">
+                        <div class="card shadow card-radius mb-5">
+                          <div class="card-body">
+                                <div class="text-center my-1">
+                                                                <img src="../image/icon-3.svg" alt="">
+                                </div>
+                                <h5 class="py-4 text-danger">BRANDING & MEDIA</h5>
+                                <P class="text-black-50 service-card">
+                                  Lorem ipsum dolor sit mquam id perspiciatis dolor, neque aliquid eos eaque quam culpa natus aspernatur exercitationem quibusdam explicabo.
+                                </P>
+                                <div class="text-end">
+                                  <button class="btn  btn-danger text-white px-4 py-2 rounded rounded-pill">SEE MORE</button>                             
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 wow animate__fadeInLeft delay">
+                        <div class="card shadow card-radius mb-5">
+                          <div class="card-body">
+                                <div class="text-center my-1">
+                                                                <img src="../image/icon-4.svg" alt="">
+                                </div>
+                                <h5 class="py-4 text-danger">INFLUENCER MARKETING</h5>
+                                <P class="text-black-50 service-card">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. amet consectetur adipisicing elit.  Quae esse accusamus vel amet nobis facere, numquam id perspiciatis dolor, neque aliquid eos eaque quam culpa natus aspernatur exercitationem quibusdam explicabo.
+                                </P>
+                                <div class="text-end">
+                                  <button class="btn  btn-danger text-white px-4 py-2 rounded rounded-pill">SEE MORE</button>                             
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 wow animate__jackInTheBox delay2">
+                        <div class="card shadow card-radius mb-5">
+                          <div class="card-body">
+                                <div class="text-center my-1">
+                                                                <img src="../image/icon-5.svg" alt="">
+                                </div>
+                                <h5 class="py-4 text-danger">SOCIAL MEDIA PAID</h5>
+                                <P class="text-black-50 service-card">
+                                  Lorem ipsum dolor vel amet nobis facere, numquam id perspiciatis  amus vel amet nobis facere, numquam id perspiciatis  amus vel amet nobis facere, numquam id perspiciatis dolor, neque aliquid eos eaque quam culpa natus aspernatur exercitationem quibusdam explicabo.
+                                </P>
+                                <div class="text-end">
+                                  <button class="btn  btn-danger text-white px-4 py-2 rounded rounded-pill">SEE MORE</button>                             
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 wow animate__fadeInRight animate__delay-1s">
+                        <div class="card shadow card-radius mb-5">
+                          <div class="card-body">
+                                <div class="text-center my-1">
+                                                                <img src="../image/icon-6.svg" alt="">
+                                </div>
+                                <h5 class="py-4 text-secondary">CONTENT MARKETING SERVICES</h5>
+                                <P class="text-black-50 service-card">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse accusamus vel amet nobis facere, numquam id perspiciatis dolor, neque aliquid eos eaque quam culpa natus aspernatur exercitationem quibusdam explicabo.
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </P>
+                                <div class="text-end">
+                                  <button class="btn  btn-secondary text-white px-4 py-2 rounded rounded-pill">SEE MORE</button>                             
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="package" class="container-fluid bg-info bg-opacity-10 overflow-hidden">
+            <div class="row">
+              <div class="col-12">
+                <div class="container my-5 ">
+                  <div class="row">
+                    <center class="col-12 mt-4">
+                      <h6 class="text-info fw-lighter">Price</h6>
+                      <h3 class="fw-bolder">Our Package</h3>
+                    </center>
+                  </div>
+                    <div class="row align-items-center aa wow animate__fadeInDownBig">
+
+                      <div class="col-12 col-md-2 col-xl-4 ">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Gold Package
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 140</h3>
+        
+                            <button class="btn btn-outline-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Platinum Package
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 140</h3>
+        
+                            <button class="btn btn-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Silver Package
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 140</h3>
+        
+                            <button class="btn btn-outline-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Gold Package 1
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 100</h3>
+        
+                            <button class="btn btn-outline-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Platinum Package 1
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 130</h3>
+        
+                            <button class="btn btn-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Silver Package 1
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 120</h3>
+        
+                            <button class="btn btn-outline-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Gold Package 2
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 140</h3>
+        
+                            <button class="btn btn-outline-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Platinum Package 2
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 140</h3>
+        
+                            <button class="btn btn-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-2 col-xl-4">
+                        <div class="card shadow card-radius m-4">
+                          <div class="card-body text-center">
+                            <h4 class="fw-normal text-black my-5">
+                              Silver Package 2
+                            </h4>
+                            <p class="text-black-50 my-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit. Ratione sequi sapiente cupiditate! 
+                            </p>
+                            <h3 class="text-primary fw-bolder my-5">$ 140</h3>
+        
+                            <button class="btn btn-outline-primary mb-5 px-4 rounded-pill">See Datails</button>
+                          </div>
+                        </div>
+                      </div>
+
+    
+                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="contact" class="container-fluid" style="overflow: hidden;">
+            <div class="row">
+              <div class="col-12">
+                <div class="container">
+                  <div class="row pt-5 mt-5 min-vh-100">
+                    <center class="col-12 wow animate__fadeIn animate__slow delay">
+                      <h6 class="text-info fw-lighter">Contact Us</h6>
+                      <h3 class="fw-bolder">Get In Touch With Us</h3>
+                    </center>
+                    <div class="col-12 col-md-12 col-xl-6 wow animate__zoomInLeft animate__slow">
+                      <form action="" method="post">
+                        <div class="mt-3">
+                          <input type="text" placeholder="Name" class="form-control">
+                        </div>
+                        <div class="mt-3">
+                          <input type="text" placeholder="E-mail" class="form-control">
+                       </div>
+                        <div class="mt-3">
+                          <textarea class="form-control" placeholder="Message"  rows="7"></textarea>
+                        </div>
+                        <div class="mt-3 my-3 text-center text-md-start">
+                          <button class="btn btn-primary px-4 rounded-pill">SEND MESSAGE</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-6 wow animate__zoomInRight animate__slow">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.9587668422537!2d96.27288960234715!3d16.828401523116156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c18db90fdcbf15%3A0xf29babd36292d0a8!2sYuZaNa%20Garden%20City!5e0!3m2!1sen!2sus!4v1630308824439!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 footer">
+                <div class="container">
+                  <br>
+                  
+                  <div class="row mobile-row">
+                    <div class="col-12 col-md-12 col-xl-3 mb-4 m-md-0">
+                      <div class="text-white text-start d-md-flex flex-column align-items-center">
+                        <p class="wow animate__bounceInDown">Stay to Touch</p>
+                        <h2 class="fw-bolder wow animate__bounceInUp m-0">MARKETING</h2><br>
+                        <div class="mb-md-5 m-0 m-xl-0">
+                          &nbsp;&nbsp;&nbsp;
+                            <a href="" class="text-white me-4" style="text-decoration: none;">
+                              <i class="fab fa-facebook-f wow animate__backInDown animate__slow delay"></i>
+                            </a>
+                            <a href="" class="text-white me-4" style="text-decoration: none;">
+                              <i class="fab fa-twitter wow animate__backInDown animate__slow delay1"></i>
+                            </a>
+                            <a href="" class="text-white me-4" style="text-decoration: none;">
+                              <i class="fab fa-google-plus-g wow animate__backInDown animate__slow delay2"></i>
+                            </a>
+                            <a href="" class="text-white me-4" style="text-decoration: none;">
+                              <i class="fab fa-instagram wow animate__backInDown animate__slow animate__delay-1s"></i>
+                            </a>
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 mb-4 m-md-0 wow animate__flipInX animate__delay-1s">
+                      <div class="text-white text-uppercase">
+                        <h4 class="fw-bolder">Quick Link</h4>
+                        <div class="d-flex flex-column">
+                          <a href="" class="text-white">About</a>
+                            <a href="" class="text-white">Home</a>
+                            <a href="" class="text-white">Location</a>
+                           <a href="" class="text-white">Contact</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 mb-4 m-md-0 wow animate__flipInY">
+                      <div class="text-white text-uppercase">
+                        <h4 class="fw-bolder">Hour</h4>
+                          <table class="col-12">
+                            <tr>
+                              <td>Mon</td>
+                              <td>9:00 : 18:00</td>
+                            </tr>
+
+                            <tr>
+                              <td>Tue</td>
+                              <td>9:00 : 18:00</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>Wed</td>
+                              <td>9:00 : 18:00</td>
+                            </tr>
+
+                            <tr>
+                              <td>Thu</td>
+                              <td>9:00 : 18:00</td>
+                            </tr>
+                            <tr>
+                              <td>Fri</td>
+                              <td>9:00 : 18:00</td>
+                            </tr>
+                          </table>
+   
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 mb-4 m-md-0 wow animate__flipInY">
+                      <div class="text-white">
+                        <h4 class="fw-bolder text-uppercase">Quick Link</h4>
+                        <div class="d-flex flex-column">
+                          <span>
+                            <i class="fa fa-phone-square"></i>
+                            &nbsp;09-446*****832
+                          </span>
+                          <span>
+                            <i class="fa fa-envelope"></i>
+                            &nbsp;hh1716101@gmail.com
+                          </span>
+                          <span>
+                            <i class="fa fa-map-marker-alt"></i>
+                            &nbsp; Yangon
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="vendor/slick/slick/slick.min.js"></script>
+    <script src="vendor/wow/wow.js"></script>
+    <script src="vendor/way_point/jquery.waypoints.min.js"></script>
+
+</body>
+</html>
